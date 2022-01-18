@@ -1,162 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Homework1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="css/modern-normalize.css">
-
 </head>
 
 <body>
-    <!--Shapka-->
+    <!--Top block info HEADER-->
     <header class="main-nav">
         <div class="container">
-            <div class="container-header">
-                <nav class="container-mainnav">
-                    <a href="./index.html" class="header-title"><span class="web-title">Web</span>Studio</a>
-                    <ul class="site-nav">
-                        <li class="item"><a href="./index.html" class="link ">Студия</a></li>
-                        <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-                        <li class="item"><a href="Контакты" class="link">Контакты</a></li>
-                    </ul>
-                </nav>
-                <ul class="contacts">
-                    <li class="item"><a href="info@devstudio.com" class="contacts-head">info@devstudio.com</a></li>
-                    <li class="item"><a href="+380961111111" class="contacts-head">+38 096 111 11 11</a></li>
+        <div class="container-header">
+            <nav class="container-mainnav">
+                <a href="./index.html" class="header-title"><span class="web-title">Web</span>Studio</a>
+                <ul class="site-nav">
+                    <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li class="item"><a href="Контакты" class="link">Контакты</a></li>
                 </ul>
-            </div>
-            </div>
-    </header>
-   
-    <!--Main section-->
-    <main>
-        <section class="section">
-            <div class="container">
-            <h1 class="hiden">Портфолио</h1>
-            <!--first type of ul-->
-            <ul class="buttons">
-                <li class="link-button"><button type="button" class="button-portfolio all">Все</button></li>
-                <li class="link-button"><button type="button" class="button-portfolio web">Веб-сайты</button></li>
-                <li class="link-button"><button type="button" class="button-portfolio apss">Приложения</button></li>
-                <li class="link-button"><button type="button" class="button-portfolio des">Дизайн</button></li>
-                <li class="link-button"><button type="button" class="button-portfolio mar">Маркетинг</button></li>
+            </nav>
+            <ul class="contacts">
+                <li class="item"><a href="mailto:info@devstudio.com" class="contacts-head">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="contacts-head">+38 096 111 11 11</a></li>
             </ul>
-            <!--second type of ul-->
-            <ul class="wrap-section">
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img8.jpg" alt="photo1" width="370">
-                    </div>
-                    
-                    <div class="under-photo">
-                        <h2 class="title-list">Технокряк</h2>
-                        <p class="under-title">Веб-сайт</p>
-                    </div>
-                    
+        </div>
+        </div>
+    </header>
+    
+
+    <!--Big block MAIN-->
+    <main>
+        <section class="section huge-section">
+            <div class="container centered">
+            <h1 class="main-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button type="button" class="button-primary">Заказать услугу</button>
+        </section>
+        <section class="section container-offer">
+            <h2 class="hiden">Что мы предлагаем</h2>
+            <div class="container">
+            <ul class="container-four">
+                <!--4 blocks together-->
+                <li class="list-four">
+                    <h3 class="block-title">Внимание к деталям</h3>
+                    <p class="description">Идейные соображения, а также начало повседневной работы по формированию
+                        позиции.</p>
                 </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img9.jpg" alt="photo2" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Постер New Orlean vs Golden Star</h2>
-                        <p class="under-title">Дизайн</p>
-                    </div>
+                <li class="list-four">
+                    <h3 class="block-title">Пунктуальность</h3>
+                    <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                        собой.</p>
                 </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img10.jpg" alt="photo3" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Ресторан Seafood</h2>
-                        <p class="under-title">Приложение</p>
-                    </div>
+                <li class="list-four">
+                    <h3 class="block-title">Планирование</h3>
+                    <p class="description">Равным образом консультация с широким активом в значительной степени
+                        обуславливает.</p>
                 </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img11.jpg" alt="photo4" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Проект Prime</h2>
-                        <p class="under-title">Маркетинг</p>
-                    </div>
+                <li class="list-four">
+                    <h3 class="block-title">Современные технологии</h3>
+                    <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                    </p>
                 </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img12.jpg" alt="photo5" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Проект Boxes</h2>
-                        <p class="under-title">Приложение</p>
-                    </div>
-                </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img13.jpg" alt="photo6" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Inspiration has no Borders</h2>
-                        <p class="under-title">Веб-сайт</p>
-                    </div>
-                </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img14.jpg" alt="photo7" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Издание Limited Edition</h2>
-                        <p class="under-title">Дизайн</p>
-                    </div>
-                </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img15.jpg" alt="photo8" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Проект LAB</h2>
-                        <p class="under-title">Маркетинг</p>
-                    </div>
-                </li>
-                <li class="wrap-block">
-                    <div class="portfolio-img">
-                    <img src="./img/img16.jpg" alt="photo9" width="370">
-                    </div>
-                    <div class="under-photo">
-                        <h2 class="title-list">Growing Business</h2>
-                        <p class="under-title">Приложение</p>
+            </ul>
+            </div>
+            </div>
+        </section>
+        <!--What we do-->
+        <section class="section work">
+            <div class="container">
+            <h2 class="work-title">Чем мы занимаемся</h2>
+           
+            <ul class="link-photo">
+                <li class="photo-bottom"> <img src="./img/img.jpg" alt="photo1" width="370"> </li>
+                <li class="photo-bottom"> <img src="./img/img1.jpg" alt="photo2" width="370"> </li>
+                <li class="photo-bottom"> <img src="./img/img2.jpg" alt="photo3" width="370"> </li>
+            </ul>
+            
+            </div>
+        </section>
+        <!--Our crew block-->
+        <section class="section crew">
+            <div class="container">
+            <h2 class="crew-title">Наша команда</h2>
+            <ul class="link-photo">
+                <li class="photo-bottom crew"><img src="./img/img4.jpg" alt="photo1" width="270">
+                    <div class="photo-bottom_name">
+                    <h3 class="name">Игорь Демьяненко</h3>
+                    <p class="position">Product Designer</p>
                     </div>
                 </li>
 
+                <li class="photo-bottom crew"><img src="./img/img5.jpg" alt="photo2" width="270">
+                    <div class="photo-bottom_name" >
+                    <h3 class="name">Ольга Репина</h3>
+                    <p class="position">Frontend Developer</p>
+                    </div>
+                </li>
+
+                <li class="photo-bottom crew"><img src="./img/img6.jpg" alt="photo3" width="270">
+                    <div class="photo-bottom_name">
+                    <h3 class="name">Николай Тарасов</h3>
+                    <p class="position">Marketing</p>
+                    </div>
+                </li>
+
+                <li class="photo-bottom crew">
+                    <img src="./img/img7.jpg" alt="photo4" width="270">
+                    
+                    <div class="photo-bottom_name">
+                    <h3 class="name">Михаил Ермаков</h3>
+                    <p class="position">UI Designer</p>
+                    </div>
+                </li>
             </ul>
-          </div>
+           </div>
         </section>
     </main>
-    <!--FOOTER-->
+    <!--last block info FOOTER-->
     <footer class="footer">
         <div class="container">
         <div class="section-footer">
             <a href="./index" class="foot-title"><span class="web-title">Web</span>Studio</a>
             <address>
                 <ul class="contacts-footer">
-                    <li><a href="г.Киев,пр-тЛесиУкраинки,26" class="contacts-down adress">г. Киев, пр-т Леси Украинки,
+                    <li class="contacts-footer_bottom"><a href="г.Киев,пр-тЛесиУкраинки,26" class="contacts-down adress">г. Киев, пр-т Леси Украинки,
                             26</a></li>
-                    <li><a href="info@example.com" class="contacts-down">info@example.com</a></li>
-                    <li><a href="+380991111111" class="contacts-down">+38 099 111 11 11</a></li>
+                    <li class="contacts-footer_bottom"><a href="mailto:info@example.com" class="contacts-down">info@example.com</a></li>
+                    <li class="contacts-footer_bottom"><a href="tel:+380991111111" class="contacts-down">+38 099 111 11 11</a></li>
                 </ul>
             </address>
         </div>
         </div>
     </footer>
-
 </body>
 
 </html>
