@@ -156,9 +156,11 @@ border-radius: 0px 0px 4px 4px;
   color: var(--hover-color);
 }
 /* Блок предложений */
-.container-four {
- padding-top: 94px;
+.container-offer{
+   padding-top: 94px;
  padding-bottom: 94px;
+}
+.container-four {
   display: flex;
   margin: 0px;
 }
@@ -259,6 +261,7 @@ font-size: 18px;
 line-height: 2em;
 letter-spacing: 0.06em;
 margin: 0;
+margin-bottom: 4px;
 }
 .under-title {
 font-size: 16px;
@@ -291,7 +294,9 @@ margin: 0;
   padding-bottom: 94px;
 }
 .work-title {
-    margin-top: 0px;
+  margin: 0;
+  margin-bottom: 50px;
+    
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16em;
